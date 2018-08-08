@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portafolio - Dimensión</title>
+    <link rel="icon" type="image/png" href="img/favicon.ico">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <header class="contenedor" id="contenedor">
+        <figure class="logo">
+            <img src="img/logo.png" alt="Juan García">
+        </figure>
+        <div class="separador"></div>
+        <div class="cabecera">
+            <h1 class="titulo">
+                Juan <span>G</span>arcía
+            </h1>
+            <p class="slogan1" id="slogan1">
+                <span class="slogan1-before" id="slogan1-before"></span>
+                Desarrollador Web
+                <span class="slogan1-after" id="slogan1-after"></span>
+            </p>
+            <p class="slogan2" id="slogan2">
+                <span class="slogan2-before" id="slogan2-before"></span>
+                Front-End
+                <span class="slogan2-after" id="slogan2-after"></span>
+            </p>
+        </div>
+        <div class="separador"></div>
+        <nav class="menu">
+            <ul>
+                <li><label for="modal-soy"><input type="checkbox" id="modal-soy">SOY</label></li>
+                <li><label for="modal-intereses"><input type="checkbox" id="modal-intereses">INTERESES</label></li>
+                <li><label for="modal-trabajos"><input type="checkbox" id="modal-trabajos">TRABAJOS</label></li>
+                <li><label for="modal-contacto"><input type="checkbox" id="modal-contacto">CONTACTO</label></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="pre-modal" id="soy">
+            <div class="modal">
+                <h2>
+                    Soy
+                </h2>
+                <label class="cerrar-modal" for="cerrar-modal-soy"><input type="checkbox" id="cerrar-modal-soy"></label>
+                <div class="fondo-modal fondo-soy"></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque iure asperiores nostrum tenetur laborum dolores quibusdam error iste quis neque quisquam in pariatur mollitia, corrupti facere minus. Rerum reiciendis, odio!
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam dolore, dolor sequi qui ratione, aliquid error molestiae quas iure laudantium incidunt itaque eveniet sed hic pariatur saepe voluptatem architecto voluptatibus.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit officia quam omnis vel totam optio asperiores pariatur maxime culpa alias recusandae quaerat distinctio, sit. Alias ullam nulla dolore ipsam perferendis.
+                </p>
+            </div>
+        </div>
+        <div class="pre-modal" id="intereses">
+            <div class="modal">
+                <h2>
+                    Intereses
+                </h2>
+                <label class="cerrar-modal" for="cerrar-modal-intereses"><input type="checkbox" id="cerrar-modal-intereses"></label>
+                <div class="fondo-modal fondo-intereses"></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit obcaecati consectetur alias et unde nisi earum, necessitatibus asperiores, amet excepturi corrupti quae? Distinctio in expedita quas optio dolore nihil natus?
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati at saepe, eius facilis unde porro ullam labore magni dolor in esse aut deleniti autem reprehenderit ex! Fugiat ut accusantium laborum.
+                </p>
+                <ul class="lista-intereses">
+                    <li>Lorem ipsum dolor.</li>
+                    <li>Lorem ipsum dolor.</li>
+                    <li>Lorem ipsum dolor.</li>
+                    <li>Lorem ipsum dolor.</li>
+                    <li>Lorem ipsum dolor.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="pre-modal" id="trabajos">
+            <div class="modal">
+                <h2>
+                    Trabajos
+                </h2>
+                <label class="cerrar-modal" for="cerrar-modal-trabajos"><input type="checkbox" id="cerrar-modal-trabajos"></label>
+                <div class="fondo-modal fondo-trabajos"></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, tempore illo laborum odio temporibus pariatur architecto reprehenderit odit laboriosam dolor veritatis at vitae optio consequuntur repudiandae nostrum amet eos hic?
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid alias atque omnis iure accusamus consequatur nemo impedit excepturi autem commodi, labore voluptatem magnam recusandae molestias at quos, veniam dignissimos nihil.
+                </p>
+            </div>
+        </div>
+        <div class="pre-modal"id="contacto">
+            <div class="modal">
+                <h2>
+                    Contacto
+                </h2>
+                <label class="cerrar-modal" for="cerrar-modal-contacto"><input type="checkbox" id="cerrar-modal-contacto"></label>
+                <div class="fondo-modal fondo-contacto"></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et nulla delectus obcaecati similique aperiam, earum recusandae, nostrum fugit inventore sapiente, provident quis nam ducimus animi minima aliquid error adipis
+                </p>
+                <form class="formulario" action="">
+                    <label for="nombre">Nombre:</label><input class="info" type="text" id="nombre">
+                    <label for="correo">Email:</label><input class="info" type="email" id="correo">
+                    <label for="comentarios">Comentarios:</label><textarea name="comentarios" id="comentarios" cols="30" rows="10"></textarea>
+                    <input type="submit" class="enviar">
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer class="pie">
+        <small>Juan García - Diseño tomado de <cite><a href="https://html5up.net/" target="_blank">HTML5 UP</a></cite></small>
+    </footer>
+    <script src="./js/main.js"></script>
+</body>
+</html>
