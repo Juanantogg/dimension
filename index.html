@@ -9,36 +9,40 @@
     <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
+    <div class="background"></div>
     <header class="contenedor" id="contenedor">
-        <figure class="logo">
-            <img src="img/logo.png" alt="Juan García">
-        </figure>
-        <div class="separador"></div>
-        <div class="cabecera">
-            <h1 class="titulo">
-                Juan <span>G</span>arcía
-            </h1>
-            <p class="slogan1" id="slogan1">
-                <span class="slogan1-before" id="slogan1-before"></span>
-                Desarrollador Web
-                <span class="slogan1-after" id="slogan1-after"></span>
-            </p>
-            <p class="slogan2" id="slogan2">
-                <span class="slogan2-before" id="slogan2-before"></span>
-                Front-End
-                <span class="slogan2-after" id="slogan2-after"></span>
-            </p>
+        <div class="header">
+            <figure class="logo">
+                <img src="img/logo.png" alt="Juan García">
+            </figure>
+            <div class="separador"></div>
+            <div class="cabecera">
+                <h1 class="titulo">
+                    Juan <span>G</span>arcía
+                </h1>
+                <p class="slogan1" id="slogan1">
+                    <span class="slogan1-before" id="slogan1-before"></span>
+                    Desarrollador Web
+                    <span class="slogan1-after" id="slogan1-after"></span>
+                </p>
+                <p class="slogan2" id="slogan2">
+                    <span class="slogan2-before" id="slogan2-before"></span>
+                    Front-End
+                    <span class="slogan2-after" id="slogan2-after"></span>
+                </p>
+            </div>
+            <div class="separador"></div>
+            <nav class="menu">
+                <ul>
+                    <li><label for="modal-soy"><input type="checkbox" id="modal-soy">SOY</label></li>
+                    <li><label for="modal-intereses"><input type="checkbox" id="modal-intereses">INTERESES</label></li>
+                    <li><label for="modal-trabajos"><input type="checkbox" id="modal-trabajos">TRABAJOS</label></li>
+                    <li><label for="modal-contacto"><input type="checkbox" id="modal-contacto">CONTACTO</label></li>
+                </ul>
+            </nav>
         </div>
-        <div class="separador"></div>
-        <nav class="menu">
-            <ul>
-                <li><label for="modal-soy"><input type="checkbox" id="modal-soy">SOY</label></li>
-                <li><label for="modal-intereses"><input type="checkbox" id="modal-intereses">INTERESES</label></li>
-                <li><label for="modal-trabajos"><input type="checkbox" id="modal-trabajos">TRABAJOS</label></li>
-                <li><label for="modal-contacto"><input type="checkbox" id="modal-contacto">CONTACTO</label></li>
-            </ul>
-        </nav>
     </header>
+
     <main>
         <div class="pre-modal" id="soy">
             <div class="modal">
@@ -104,7 +108,7 @@
     </main>
 
     <footer class="pie">
-        <small>Juan García - Diseño tomado de <cite><a href="https://html5up.net/" target="_blank">HTML5 UP</a></cite></small>
+        <small>Juan Antonio García Guillén - Diseño de <cite><a href="https://html5up.net/" target="_blank">HTML5 UP</a></cite></small>
     </footer>
     <script src="./js/main.js"></script>
 </body>
